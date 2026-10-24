@@ -1,0 +1,212 @@
+[
+  {
+    "name": "FHGD",
+    "raw_shape": [
+      2000,
+      9
+    ],
+    "raw_class": {
+      "0": 1316,
+      "1": 684
+    },
+    "duplicates_removed": 1256,
+    "after_dedup": 744,
+    "zero_missing": {
+      "Glucose": 5,
+      "BloodPressure": 34,
+      "SkinThickness": 215,
+      "Insulin": 359,
+      "BMI": 10
+    },
+    "missing_samples_removed": 363,
+    "after_missing": 381,
+    "outliers_clipped": 69,
+    "outlier_detail": {
+      "Pregnancies": {
+        "low": 0,
+        "high": 10,
+        "bound": [
+          -5.0,
+          11.0
+        ]
+      },
+      "Glucose": {
+        "low": 0,
+        "high": 0,
+        "bound": [
+          33.0,
+          209.0
+        ]
+      },
+      "BloodPressure": {
+        "low": 2,
+        "high": 4,
+        "bound": [
+          38.0,
+          102.0
+        ]
+      },
+      "SkinThickness": {
+        "low": 0,
+        "high": 1,
+        "bound": [
+          -3.0,
+          61.0
+        ]
+      },
+      "Insulin": {
+        "low": 0,
+        "high": 22,
+        "bound": [
+          -95.0,
+          361.0
+        ]
+      },
+      "BMI": {
+        "low": 0,
+        "high": 7,
+        "bound": [
+          15.2,
+          50.4
+        ]
+      },
+      "DiabetesPedigreeFunction": {
+        "low": 0,
+        "high": 11,
+        "bound": [
+          -0.33,
+          1.29
+        ]
+      },
+      "Age": {
+        "low": 0,
+        "high": 12,
+        "bound": [
+          3.5,
+          55.5
+        ]
+      }
+    },
+    "cleaned_shape": [
+      381,
+      9
+    ],
+    "cleaned_class": {
+      "0": 259,
+      "1": 122
+    },
+    "final_shape": [
+      518,
+      9
+    ],
+    "final_class": {
+      "0": 259,
+      "1": 259
+    }
+  },
+  {
+    "name": "pima",
+    "raw_shape": [
+      768,
+      9
+    ],
+    "raw_class": {
+      "0": 500,
+      "1": 268
+    },
+    "duplicates_removed": 0,
+    "after_dedup": 768,
+    "zero_missing": {
+      "Glucose": 0,
+      "BloodPressure": 0,
+      "SkinThickness": 0,
+      "Insulin": 0,
+      "BMI": 0
+    },
+    "missing_samples_removed": 0,
+    "after_missing": 768,
+    "outliers_clipped": 319,
+    "outlier_detail": {
+      "Pregnancies": {
+        "low": 0,
+        "high": 4,
+        "bound": [
+          -6.5,
+          13.5
+        ]
+      },
+      "Glucose": {
+        "low": 0,
+        "high": 0,
+        "bound": [
+          39.0,
+          201.0
+        ]
+      },
+      "BloodPressure": {
+        "low": 4,
+        "high": 10,
+        "bound": [
+          40.0,
+          104.0
+        ]
+      },
+      "SkinThickness": {
+        "low": 39,
+        "high": 48,
+        "bound": [
+          14.5,
+          42.5
+        ]
+      },
+      "Insulin": {
+        "low": 86,
+        "high": 82,
+        "bound": [
+          71.25,
+          205.25
+        ]
+      },
+      "BMI": {
+        "low": 0,
+        "high": 8,
+        "bound": [
+          13.85,
+          50.25
+        ]
+      },
+      "DiabetesPedigreeFunction": {
+        "low": 0,
+        "high": 29,
+        "bound": [
+          -0.33,
+          1.2
+        ]
+      },
+      "Age": {
+        "low": 0,
+        "high": 9,
+        "bound": [
+          -1.5,
+          66.5
+        ]
+      }
+    },
+    "cleaned_shape": [
+      768,
+      9
+    ],
+    "cleaned_class": {
+      "0": 500,
+      "1": 268
+    },
+    "final_shape": [
+      1000,
+      9
+    ],
+    "final_class": {
+      "0": 500,
+      "1": 500
+    }
+  }
+]

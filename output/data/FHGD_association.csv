@@ -1,0 +1,6 @@
+feature,point_biserial_r,mean_non_diabetic,mean_diabetic,mean_diff
+Glucose,0.5085,111.94,145.3,33.36
+Age,0.3632,28.23,35.68,7.45
+Insulin,0.3283,126.08,189.25,63.18
+BMI,0.2533,31.89,35.54,3.65
+BloodPressure,0.2212,68.87,74.59,5.72

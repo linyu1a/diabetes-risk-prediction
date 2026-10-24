@@ -1,0 +1,9 @@
+feature,mean_abs_shap
+Glucose,0.8608
+DiabetesPedigreeFunction,0.381
+Age,0.3268
+BMI,0.2097
+BloodPressure,0.1568
+SkinThickness,0.1239
+Insulin,0.0589
+Pregnancies,0.046
